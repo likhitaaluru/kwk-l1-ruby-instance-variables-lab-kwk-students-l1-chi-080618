@@ -8,4 +8,6 @@ class Dog
     this_dogs_name
   end
 end
-lassie=Dog.authenticate_or_request_with_http_digest
+lassie=Dog.new
+lassie.name = "Lassie"
+lassie.name #=> "Lassie"
